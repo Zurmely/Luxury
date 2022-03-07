@@ -1,0 +1,463 @@
+.prod {
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.games {
+    padding: 0 4em;
+    width: 100vw;
+    display: flex;
+}
+
+.games img {
+    max-width: 24px;
+}
+
+.lol1 {
+    padding: 1.5em;
+    width: 30%;
+    margin: 1.5%;
+    background-color: #070707;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('lol.png');
+}
+
+.val1 {
+    padding: 1.5em;
+    width: 30%;
+    margin: 1.5%;
+    background-color: #070707;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('val.png');
+}
+
+.rust1 {
+    padding: 1.5em;
+    width: 30%;
+    margin: 1.5%;
+    background-color: #070707;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('rust.png');
+}
+
+.current {
+    border: 1px solid rgba(255 255 255/15%);
+}
+
+.nope {
+    opacity: .25;
+    border: 1px solid rgba(255 255 255/10%);
+    transition: all 0.3s ease-in-out;
+    filter: saturate(0);
+}
+
+.nope:hover {
+    opacity: .75;
+    filter: saturate(.75);
+}
+
+.mainc {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 0 4em 8em 4em;
+}
+
+.filters {
+    margin: 1.5%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    line-break: loose;
+}
+
+.filters h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.plist {
+    width: 82%;
+    margin: 1.5%;
+}
+
+.l1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.l1 a {
+    margin: .15em;
+    border-radius: 4px;
+    border: 1px solid rgba(255 255 255/5%);
+    display: flex;
+    font-size: .75em;
+    color: rgba(255 255 255/50%);
+    text-decoration: none;
+    padding: 12px 0;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.l2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.l2 a {
+    margin: .15em;
+    border-radius: 4px;
+    border: 1px solid rgba(255 255 255/5%);
+    display: flex;
+    color: rgba(255 255 255/50%);
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: .75em;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+}
+
+.l1 a, .l2 a {
+    transition: all 0.3s ease-in-out;
+}
+
+.l1 a:hover, .l2 a:hover, .l1 a:active, .l2 a:active, .l1 a:focus, .l2 a:focus {
+    border: 1px solid rgba(255 255 255/15%);
+    color: rgba(255 255 255/100%);
+    background: rgba(255 255 255/5%);
+}
+
+
+.prow {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.prow:first-of-type {
+    justify-content: flex-start;
+}
+
+.prow + .prow {
+    margin-top: -0.95em;
+}
+
+.product {
+    padding: 2em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255 255 255/2.5%);
+    border-radius: 4px;
+    border: 1px solid rgba(255 255 255/5%);
+    margin: 1.25%;
+    width: 25%;
+}
+
+.product + .product {
+    margin-left: 0;
+}
+
+.product img {
+    max-width: 96px;
+    max-height: 96px;
+}
+
+.active2 {
+    margin-top: 3em;
+    background: #40ed9c48;
+    color: white;
+    font-weight: 400;
+    font-size: .65em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.nfa {
+    font-weight: 400;
+    margin-top: 3em;
+    background: rgba(255 255 255/15%);
+    color: white;
+    font-size: .65em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.inactive {
+    margin-top: 3em;
+    font-weight: 400;
+    background: rgba(255 255 255/15%);
+    color: white;
+    font-size: .65em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.product h4 i {
+    margin-right: .5em;
+}
+
+.product h1 {
+    font-size: 1.25em;
+    text-align: center;
+    color: white;
+    margin-top: 1.75em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.product h3 {
+    font-size: .8em;
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+.product a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding: .75em 2em;
+    background: rgba(255 255 255/2.5%);
+    border-radius: 4px;
+    border: 1px solid rgba(255 255 255/15%);
+    transition: all 0.3s ease-in-out;
+}
+
+.product a i {
+    margin-right: .5em;
+}
+
+.no-stock {
+    filter: saturate(0);
+    opacity: .25;
+}
+
+.product a:hover {
+    font-weight: 600;
+    margin-top: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding: .75em 2em;
+    background: rgba(255 255 255/5%);
+    border-radius: 4px;
+    border: 1px solid rgba(255 255 255/25%);
+}
+
+/* Start mobile */
+
+@media only screen and (max-width: 777px) {
+
+    .prod {
+        padding-top: 14vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .games {
+        padding: 0 2em;
+        width: 100vw;
+        display: flex;
+    }
+
+    .prow:first-of-type {
+        justify-content: center;
+    }
+
+    .prow {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plist {
+        width: 100%;
+        margin: 0;
+    }
+
+    .product {
+        padding: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(255 255 255/2.5%);
+        border-radius: 4px;
+        border: 1px solid rgba(255 255 255/5%);
+        margin: 0;
+        margin-bottom: 1.5em;
+        width: 100%;
+    }
+
+    .product a:hover {
+        font-weight: 600;
+        margin-top: 1.5em;
+        color: white;
+        text-decoration: none;
+        padding: 0.75em 1em;
+        background: rgba(255 255 255/5%);
+        border-radius: 4px;
+        border: 1px solid rgba(255 255 255/25%);
+    }
+
+    .prow + .prow {
+        margin-top: 0;
+    }
+
+.mainc {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 2em 2em 4em 2em;
+}
+
+.filters {
+    margin: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-break: loose;
+}
+
+.filters h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.product img {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.active2 {
+    margin-top: 1em;
+    background: #40ed9c48;
+    color: white;
+    font-weight: 400;
+    font-size: .65em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.product h1 {
+    font-size: 1.25em;
+    text-align: center;
+    color: white;
+    margin-top: .8em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.product h3 {
+    font-size: .8em;
+    color: white;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: .8em;
+}
+
+.active2 {
+    margin-top: 1.4em;
+    background: #40ed9c48;
+    color: white;
+    font-weight: 400;
+    font-size: .5em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.nfa {
+    font-weight: 400;
+    margin-top: 1.4em;
+    background: rgba(255 255 255/15%);
+    color: white;
+    font-size: .5em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.inactive {
+    margin-top: 1.4em;
+    font-weight: 400;
+    background: rgba(255 255 255/15%);
+    color: white;
+    font-size: .5em;
+    padding: .5em .75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.filters {
+    margin: 2%;
+    margin-bottom: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-break: loose;
+}
+
+}

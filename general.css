@@ -17,6 +17,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #111111;
+    overflow-x: hidden;
 }
 
 #scroll-nav {

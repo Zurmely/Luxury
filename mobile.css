@@ -1,20 +1,4 @@
 @media only screen and (max-width: 777px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    
-    ::-webkit-scrollbar {
-        width: 2px !important;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background-color: white !important;
-    }
-    
     body {
         font-family: 'Montserrat', sans-serif;
         background: #111111;
@@ -240,7 +224,7 @@
     
     .shop {
         text-align: center;
-        background: linear-gradient(275deg, #00C2FF50, #AD00FF50);
+        background: #404eed;
         padding: 1em 2em;
         border-radius: 50px;
         text-decoration: none;
@@ -520,16 +504,16 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 6em;
+        padding: 2em;
     }
     
     #flogo {
-        width: 10em;
+        width: 6em;
     }
     
     footer h1 {
-        margin-top: 1.5em;
-        font-size: 1em;
+        margin-top: .8em;
+        font-size: .6em;
         color: white;
         font-weight: 200;
     }
@@ -537,5 +521,5 @@
     footer h1 b {
         font-weight: 500;
     }
-    
+
 }

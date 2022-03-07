@@ -242,19 +242,18 @@ main:after {
 }
 
 .shop {
-    background: linear-gradient(275deg, #00C2FF50, #AD00FF50);
+    background: #404eed;
     padding: 1em 2em;
     border-radius: 50px;
     text-decoration: none;
     color: white;
     margin-top: 2em;
     width: fit-content;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .shop:hover {
-    text-shadow: 1px 1px 4px black;
-    background: linear-gradient(275deg, #00C2FFcc, #AD00FFcc);
+    background: #313ece;
 }
 
 .shop i {

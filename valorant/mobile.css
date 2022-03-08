@@ -522,4 +522,13 @@
         font-weight: 500;
     }
 
+#logo {
+    width: 6em;
+    display: inline-block;
+    }
+
+    #logo.smaller {
+    width: 6em;
+    }
+
 }

@@ -15,7 +15,12 @@
     }
     
     #logo {
-        display: inline-block;
+    width: 6em;
+    display: inline-block;
+    }
+
+    #logo.smaller {
+    width: 6em;
     }
     
     #is-active {
@@ -520,6 +525,15 @@
     
     footer h1 b {
         font-weight: 500;
+    }
+
+#logo {
+    width: 6em;
+    display: inline-block;
+    }
+
+    #logo.smaller {
+    width: 6em;
     }
 
 }

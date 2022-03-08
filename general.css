@@ -324,7 +324,7 @@ main:after {
 }
 
 .qtx h3 {
-    text-align: left;
+    text-align: justify;
     font-weight: 200;
     font-size: .9em;
     letter-spacing: 1px;
